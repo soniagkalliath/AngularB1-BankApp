@@ -8,13 +8,13 @@
                 <h2 style="text-align: center; color: darkslategrey;">Login</h2>
                 <div class="input-group mb-3">
 
-                    <input type="text" class="form-control" id="uname" (change)="accNumber($event)" [value]="acNumber" placeholder="username"
+                    <input type="text" class="form-control" id="acno" #acno [value]="acNumber" placeholder="Account Number"
                         aria-label="Recipient's username" aria-describedby="basic-addon2">
                 </div>
 
                 <div class="input-group mb-3">
 
-                    <input type="password" class="form-control" id="pwd" (change)="pswdChange($event)" placeholder="password"
+                    <input type="password" class="form-control" id="pwd" #pswd placeholder="password"
                         aria-label="password" aria-describedby="basic-addon2">
 
                 </div>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="input-group mb-3 login-btn-center">
 
-                    <button (click)="login()" class="btn btn-primary">Login</button>
+                    <button (click)="login(acno,pswd)" class="btn btn-primary">Login</button>
 
                 </div>
             </div>

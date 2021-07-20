@@ -28,5 +28,7 @@
 
                             4.1.2.2 Event Binding using argument as $event- syntax: (event)="function ($event)"
 
+                            4.1.2.3 Event Binding using Template referencing Variable- syntax: #template-refernce-variable
+
                     4.2 Two Way Binding
                                 
