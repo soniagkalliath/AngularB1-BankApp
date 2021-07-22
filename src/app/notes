@@ -30,5 +30,12 @@
 
                             4.1.2.3 Event Binding using Template referencing Variable- syntax: #template-refernce-variable
 
-                    4.2 Two Way Binding
+                    4.2 Two Way Binding - ngModel -FormsModule syntax: [(ngModel)] = "variable-name"
+
+                5. Angular Routing - To set path of Angular forms
+
+                6. Dependency Injection
+
+                7. ngSubmit
+            
                                 
